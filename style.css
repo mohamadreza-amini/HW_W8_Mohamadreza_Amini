@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#menu {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: center;
+  top: 0;
+  background-color: blue;
+  width: 100%;
+}
+.button {
+  display: inline;
+  margin: 10px 5%;
+}
+
+.button button:hover {
+  background-color: red;
+  transition: ease-in-out 0.6s;
+}
+
+.button button {
+  background-color: white;
+  padding: 3px 10px;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+}
+
+#content {
+  display: flex;
+}
+
+#content p {
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 10%;
+}
+
+#google {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border: 5px solid blue;
+  border-radius: 20%;
+  align-items: center;
+  padding: 5px;
+}
+
+#google img {
+  display: block;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#google span {
+  display: block;
+  background-color: white;
+}
+
+#top-page {
+  margin-top: 50vh;
+  width: 2%;
+}
+
+#top-page a {
+  border: 5px solid blue;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: white;
+  top: 5%;
+  position: sticky;
+  margin-left: 20px;
+}
