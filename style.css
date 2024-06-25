@@ -27,6 +27,7 @@
 .button button {
   background-color: white;
   padding: 3px 10px;
+  font-size: large;
 }
 
 main {
