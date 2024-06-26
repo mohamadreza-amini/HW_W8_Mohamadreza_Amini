@@ -19,15 +19,16 @@
   margin: 10px 5%;
 }
 
-.button button:hover {
+.button a:hover {
   background-color: red;
   transition: ease-in-out 0.6s;
 }
 
-.button button {
+.button a {
   background-color: white;
   padding: 3px 10px;
   font-size: large;
+  text-decoration: none;
 }
 
 main {
@@ -65,19 +66,26 @@ main {
 #google span {
   display: block;
   background-color: white;
+  z-index: 100;
 }
 
 #top-page {
-  margin-top: 50vh;
+  margin-top: 50dvh;
   width: 2%;
 }
 
 #top-page a {
   border: 5px solid blue;
-  border-radius: 20%;
+  border-radius: 50%;
   padding: 10px;
   background-color: white;
   top: 5%;
   position: sticky;
   margin-left: 20px;
+  z-index: 100;
+  text-decoration: none;
+  background-color: blue;
+  color: azure;
+  font-size: x-large;
+  font-weight: bold;
 }
